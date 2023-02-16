@@ -1,1 +1,1 @@
-low level programming scripts
+beginner scripts on c language
