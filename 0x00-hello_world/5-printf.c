@@ -1,7 +1,7 @@
 #include <stdio.h>
-/* display a text*/
+/*  display a text */
+/* function main: return integer */
 int main(void)
-/* main: print text */
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	/* return 0 */
