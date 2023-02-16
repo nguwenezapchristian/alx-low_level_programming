@@ -3,7 +3,7 @@
 int main(void) /*function main return integer */
 {
 	/* assigning a variable */
-	char myStr[] = "\"Programming is like building a multilingual puzzle\n";
+	char myStr[] = "\"Programming is like building a multilingual puzzle";
 	/* statement */
 	puts(myStr);
 	/* return 0 */
