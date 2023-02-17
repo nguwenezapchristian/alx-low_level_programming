@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  * Description: 'lower and upper case'
  * Return: Always 0 (Success)
  */
@@ -16,7 +16,7 @@ int main(void)
 	}
 	for (up = 'A'; up <= 'Z'; up++)
 	{
-		putchar(up, "\n");
+		putchar(up);
 	}
 	/* return zero */
 	return (0);
