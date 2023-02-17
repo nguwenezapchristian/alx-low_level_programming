@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* alphabet */
+/**
+ * main - Entry point
+ * Description: 'lowercase in reverse'
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	/* decaralation */
