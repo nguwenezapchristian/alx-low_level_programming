@@ -6,18 +6,21 @@
  */
 int main(void)
 {
-	/* decaralation */
-	char lo;
-	char up;
+	/* decaralation and assigning */
+	char lo = 'a';
+	char up = 'z';
 
-	for (lo = 'a'; lo <= 'z'; lo++)
+	while (lo <= 'z')
 	{
 		putchar(lo);
+		lo++;
 	}
-	for (up = 'A'; up <= 'Z'; up++)
+	while (up <= 'Z')
 	{
 		putchar(up);
+		up++;
 	}
+	putchar('\n');
 	/* return zero */
 	return (0);
 }
