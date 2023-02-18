@@ -8,7 +8,7 @@ int main(void)
 {
 	/* decaralation and assigning */
 	char lo = 'a';
-	char up = 'z';
+	char up = 'A';
 
 	while (lo <= 'z')
 	{
