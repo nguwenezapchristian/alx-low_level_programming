@@ -18,8 +18,8 @@ int _putchar(char c)
  */
 int printword(void)
 {
-        char word[] = "_putchar";
-        char i = 0;
+        int word[] = "_putchar";
+        int i = 0;
 
         while (word[i] != '\0')
         {
