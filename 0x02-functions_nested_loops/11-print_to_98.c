@@ -9,6 +9,7 @@
 void print_to_98(int n)
 {
 	int x = 98;
+	
 	if (n < x)
 	{
 		while (n < x)
@@ -37,5 +38,5 @@ void print_to_98(int n)
 	}
 	else
 		printf("%d", n);
-	putchar('\n')
+	putchar('\n');
 }
