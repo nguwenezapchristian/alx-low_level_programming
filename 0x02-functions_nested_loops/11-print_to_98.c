@@ -13,12 +13,12 @@ void print_to_98(int n)
 	{
 		while (n < x)
 		{
+			printf("%d", n);
 			if (n != x)
 			{
-				printf("%d, ", n);
+				putchar(',');
+				putchar(' ');
 			}
-			else
-				printf("%d", n);
 			n++;
 		}
 	}
@@ -26,15 +26,16 @@ void print_to_98(int n)
 	{
 		while (n > x)
 		{
+			printf("%d", n);
 			if (n != x)
 			{
-				printf("%d, ", n);
+				putchar(',');
+				putchar(' ');
 			}
-			else
-				printf("%d", n);
 			n--;
 		}
 	}
 	else
 		printf("%d", n);
+	putchar('\n')
 }
