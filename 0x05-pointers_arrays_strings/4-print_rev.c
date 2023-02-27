@@ -31,7 +31,7 @@ int _strlen(char *s)
 	int t;
 	int i = 0;
 
-	for (t = 0; *(s + t) != '\n'; t++)
+	for (t = 0; *(s + t) != '\0'; t++)
 	{
 		i++;
 	}
