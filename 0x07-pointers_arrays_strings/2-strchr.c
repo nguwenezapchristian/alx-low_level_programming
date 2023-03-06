@@ -18,5 +18,6 @@ char *_strchr(char *s, char c)
 			return (s + i);
 		}
 	}
+	_putchar('\n');
 	return (NULL);
 }
