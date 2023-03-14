@@ -26,6 +26,10 @@ int **alloc_grid(int width, int height)
 		}
 		if (arr == NULL)
 		{
+			for (a = 0; a < height; a++)
+			{
+				free(arr[a]);
+			}
 			return (NULL);
 		}
 		else
