@@ -10,25 +10,17 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int i, size1 = 1, size2 = 1, n = 0;
+	int i, n = 0, size1 = 1, size2 = 1;
 	char *s1_s2;
 
 	if (s1 == NULL && s2 == NULL)
 	{
 		return (NULL);
 	}
-	else if (s1 != NULL && s2 == NULL)
-	{
-		return (s1);
-	}
-	else if (s1 == NULL && s2 != NULL)
-	{
-		return (s2);
-	}
 	else
 	{
 		for (i = 0; s1[i] != '\0'; i++)
-		{	
+		{
 			size1++;
 		}
 		for (i = 0; s2[i] != '\0'; i++)
