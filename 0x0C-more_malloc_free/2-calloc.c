@@ -26,7 +26,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		}
 		else
 		{
-			for (c = 0; c < nmemb; c++)
+			for (c = 0; c < (nmemb * size); c++)
 			{
 				a[c] = 0;
 			}
