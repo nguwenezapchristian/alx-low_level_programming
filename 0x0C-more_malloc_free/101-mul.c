@@ -4,24 +4,16 @@
 
 /**
  * main - multiplies two digit numbers
- * @argc: arguments count
- * @argv: arguments array
+ * @num1: 1st argument
+ * @num2: 2nd argument
  * Return: result of multiplication
  */
 
-int main(int argc, char *argv[])
+int main(int num1, int num2)
 {
-	int a;
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[2]);
 	int *mul;
 
-	if (argc > 3)
-	{
-		printf("Error\n");
-		exit(98);
-	}
-	else if (num1 < 0 || num2 < 0)
+	if (num1 < 0 || num2 < 0)
 	{
 		printf("Error\n");
 		exit(98);
