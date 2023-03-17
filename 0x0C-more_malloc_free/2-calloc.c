@@ -3,14 +3,15 @@
 
 /**
  * _calloc - allocates memory for an array
- * @nmemb: array
- * @size: size for each element in array
+ * @nmemb: number of elements in an array
+ * @size: size for each element in bytes
  * Return: a pointer to allocated memory
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	unsigned int *a
+	char *a;
+	unsigned int c;
 
 	if (nmemb == 0 || size == 0)
 	{
@@ -18,13 +19,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 	else
 	{
-		a = malloc(sizeof(*a) * size);
+		a = malloc(nmemb * size);
 		if (a == NULL)
 		{
 			return (NULL);
 		}
 		else
 		{
+			for (c = 0; c < nmemb; c++)
+			{
+				a[c] = 0;
+			}
 			return (a);
 		}
 	}
