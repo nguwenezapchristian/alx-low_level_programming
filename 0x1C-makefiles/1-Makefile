@@ -1,0 +1,5 @@
+CC=gcc
+SRC=main.c school.c
+.PHONY: all
+all: main.c school.c m.h
+	$(CC) $(SRC) -o school
