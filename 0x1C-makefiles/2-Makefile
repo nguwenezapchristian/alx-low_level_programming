@@ -1,7 +1,8 @@
-CC=gcc
-SRC=main.c school.c
-OBJ=$(SRC: .c=.o)
-NAME=school
-.PHONY: all
-all: $(OBJ) m.h
+CC= gcc
+SRC= main.c school.c
+OBJ= $(SRC:.c=.o)
+NAME= school
+
+
+all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
